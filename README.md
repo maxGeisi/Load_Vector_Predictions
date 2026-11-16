@@ -2,23 +2,25 @@
 
 A Python project to optimize energy consumption using battery storage, peak shaving, and surplus solar energy utilization.
 
-Features
-Validates input data format (timestamps and energy values).
-Optimizes energy consumption through battery charging/discharging.
-Reduces peak loads and calculates cost savings.
-Provides visualizations of load curves and peak comparisons.
+## Features
 
-Getting Started
-Install Dependencies:
+- Validates input data format (timestamps and energy values).
+- Optimizes energy consumption through battery charging/discharging.
+- Reduces peak loads and calculates cost savings.
+- Provides visualizations of load curves and peak comparisons.
+
+## Getting Started
+
+Install dependencies:
 
 ```bash
 pip install pandas matplotlib pytest
 ```
-Input Data:
+Input data:
 
 Load (lg.csv) and solar (sd.csv) files with Timestamp and kW columns.
 
-Run the Script:
+Run the script:
 ```bash
 python main.py
 ```
@@ -34,7 +36,8 @@ Run tests with:
 ```bash
 pytest test_dr/test_input.py
 ```
-Results
+## Results
+
 Reduced peaks and optimized energy costs.
 
 Summary visualizations and savings analysis.
